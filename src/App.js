@@ -2,6 +2,7 @@ import './App.scss';
 import { } from 'react-icons/fa';
 import ImageCard from './components/ImageCard/ImageCard';
 import Header from './components/Header/Header';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <header>
         <Header></Header>
       </header>
+      <div className='contact'>
+        <Contact></Contact>
+      </div>
       
 
 
